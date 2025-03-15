@@ -44,7 +44,7 @@ interface NewsArticle {
 const API_URL =
   process.env.NODE_ENV === "development"
     ? "http://localhost:5000/api/news"
-    : "https://a3-1dz6.vercel.app/api/news";
+    : "https://1200-nine.vercel.app/api/news";
 
 const NewsList = () => {
   const [news, setNews] = useState<NewsArticle[]>([]);
